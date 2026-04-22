@@ -19,6 +19,7 @@ import {
   AlertTriangle
 } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import DemoOverlayBanner from './DemoOverlayBanner';
 
 export default function App() {
   const [counter, setCounter] = useState(148293);
@@ -265,6 +266,7 @@ export default function App() {
       {/* BRIGHT OVERLAYS */}
       <div className="fixed top-0 left-0 w-2 h-screen bg-ugly-red opacity-50 z-[100] pointer-events-none"></div>
       <div className="fixed top-0 right-0 w-2 h-screen bg-ugly-blue opacity-50 z-[100] pointer-events-none"></div>
+      <DemoOverlayBanner />
     </div>
   );
 }

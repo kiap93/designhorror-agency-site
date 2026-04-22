@@ -19,6 +19,9 @@ export default {
         'ugly-blue': '#0000ff',
         'ugly-green': '#00ff00',
         'ugly-red': '#ff0000',
+         'brand-dark': '#0f172a',   // add this
+        'brand-blue': '#4f46e5',   // add this
+        'brand-muted': '#6b7280',  // add this
       },
       animation: {
         marquee: 'marquee 10s linear infinite',
